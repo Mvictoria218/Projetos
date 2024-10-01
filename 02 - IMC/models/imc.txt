@@ -1,0 +1,4 @@
+Larissa;69;1.64;25.65;Sobrepeso;
+Klara;48;1.59;18.99;Peso normal;
+?;1;1;1.0;Abaixo do peso;
+nao;58;1.90;16.07;Abaixo do peso;
