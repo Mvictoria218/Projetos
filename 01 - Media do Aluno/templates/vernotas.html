@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ver notas</title>
+    <link rel="stylesheet" href="/static/styles/notas.css">
+</head>
+<body>
+
+    <header class="cabecalho" >
+        <a class="lancar" href="/">Lançar Notas</a>
+        <a class="ver" href="/vernotas">Ver Notas</a>
+    </header>
+   
+    <h2 class="titulo" >Ver notas</h2>
+
+    <div class="notas">
+        <table class="ver_notas_tabela">
+            <thead>
+                <tr>
+                    <th>Nome do Aluno</th>
+                    <th>Nota 1</th>
+                    <th>Nota 2</th>
+                    <th>Nota 3</th>
+                    <th>Média do Aluno</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for aluno in prod %}
+                <tr>
+                    <td>{{ aluno.nome_aluno }}</td>
+                    <td>{{ aluno.nota_um }}</td>
+                    <td>{{ aluno.nota_dois }}</td>
+                    <td>{{ aluno.nota_tres }}</td>
+                    <td>{{ aluno.media }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

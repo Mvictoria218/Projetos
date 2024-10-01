@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+:root{
+    --fonte-titulo: 'Gravitas One', sans-serif;
+    --fonte-conteudo: 'Crimson Text', sans-serif;
+    --cor-fundo: #ebdbcb;
+    --cor-tit: #90725d;
+    --cor-margem: #2f3547;
+    --cor-tab: #ced9e4;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color:var(--cor-fundo);
+}
+ 
+.cabecalho{
+    background-color: var(--cor-margem);
+    padding: 40px;
+    font-size: 20px;
+    color: var(--cor-botao)
+    
+}
+
+.ver{
+    color: var(--cor-tab);
+    text-decoration: none;
+    position: relative;
+    left: 670px;
+}
+
+.lancar{
+    color: var(--cor-tab);
+    text-decoration: none;
+    position: relative;
+    left: 580px;
+}
+
+.titulo{
+    font-family: var(--fonte-titulo);
+    color: var(--cor-tit);
+    font-size: 30px;
+    position: relative;
+    left: 95px;
+    margin-top: 55px;
+}
+
+.notas {
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    background-color: var(--cor-fundo);
+}
+
+.ver_notas_tabela{
+    width: 80%;
+    border-collapse: collapse;
+    font-family: var(--fonte-secundaria);
+}
+ 
+.ver_notas_tabela th, .ver_notas_tabela td{
+    border: 3px solid var(--cor-margem);
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+ 
+.ver_notas_tabela th {
+    background-color: var(--cor-tab);
+    font-weight: 600;
+}
+ 
+.ver_notas_tabela td {
+    background-color: var(--cor-tab);
+}
+ 
+.ver_notas_tabela tr:nth-child(even) {
+    background-color: var(--cor-tab);
+}
+ 
+ 

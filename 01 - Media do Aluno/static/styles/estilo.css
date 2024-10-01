@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+:root{
+    --fonte-titulo: 'Gravitas One', sans-serif;
+    --fonte-conteudo: 'Crimson Text', sans-serif;
+    --cor-fundo: #ebdbcb;
+    --cor-tit: #90725d;
+    --cor-margem: #2f3547;
+    --cor-botao: #ced9e4;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:var(--cor-fundo);
+}
+
+
+.cabecalho{
+    background-color: var(--cor-margem);
+    padding: 40px;
+    font-size: 20px;
+    color: var(--cor-botao)
+}
+
+.ver{
+    color: var(--cor-botao);
+    text-decoration: none;
+    position: relative;
+    left: 670px;
+}
+
+.lancar{
+    color: var(--cor-botao);
+    text-decoration: none;
+    position: relative;
+    left: 580px;
+}
+
+.titulo{
+    font-family: var(--fonte-titulo);
+    color: var(--cor-tit);
+    font-size: 30px;
+    position: relative;
+    left: 95px;
+    margin-top: 55px;
+}
+
+.notas{
+    font-family: var(--fonte-conteudo);
+    color: var(--cor-margem);
+}
+
+.inserir{
+    margin-top: 90px;
+    position: relative;
+    left: 209px;
+}
+
+.nome{
+    position: relative;
+    left: 133px;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.nome input{
+    border-color: var(--cor-tit);
+    padding: 5px;
+    border-radius: 15px;
+    border-width:4px ;
+    border: #90725d 4px solid;
+    padding-right: 150px;
+}
+
+.nota1{
+    font-size: 30px;
+    margin-bottom: 61px;
+}
+
+.nota1 input{
+    border-color: var(--cor-tit);
+    padding: 5px 15px;
+    border-radius: 17px;
+    border-width: 4px;
+    border: #90725d 4px solid;
+
+}
+
+.nota2{
+    font-size: 30px;
+    margin-bottom: 61px;  
+}
+
+.nota2 input{
+    border-color: var(--cor-tit);
+    padding: 5px 15px;
+    border-radius: 17px;
+    border-width: 4px;
+    border: #90725d 4px solid;
+}
+
+.nota3{
+    font-size: 30px;
+    margin-bottom: 61px;
+}
+
+.nota3 input{
+    border-color: var(--cor-tit);
+    padding: 5px 15px;
+    border-radius: 17px;
+    border-width: 4px;
+    border: #90725d 4px solid;
+}
+
+.lançar_notas{
+    background-color: var(--cor-botao);
+    padding: 5px 30px;
+    font-size: 20px;
+    font-family: var(--fonte-conteudo);
+    border-radius: 17px;
+    border: #ced9e4 solid;
+    position: relative;
+    left: 300px;
+    margin-top: -100px;
+}

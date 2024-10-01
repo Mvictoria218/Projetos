@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média do Aluno</title>
+    <link rel="stylesheet" href="/static/styles/estilo.css">
+</head>
+
+<header class="cabecalho" >
+    <a class="lancar" href="/">Lançar Notas</a>
+    <a class="ver" href="/vernotas">Ver Notas</a>
+</header>
+
+<body>
+ 
+    <div class="conteúdo">
+        <h2 class="titulo" >Média do Aluno</h2>
+        <form action="/" method="post" class="notas">
+            <div class="nome" >
+                <label for="">Nome do Aluno:</label>
+                <input required type="text" name="nome_aluno" id="nome_aluno"><br>
+            </div>
+ 
+            <div class="inserir" >
+                <div class="nota1">
+                    <label for="">Nota 1:</label>
+                    <input required type="number" name="nota_1" id="nota_1"><br>
+                </div>
+ 
+                <div class="nota2">
+                    <label for="">Nota 2:</label>
+                    <input required type="number" name="nota_2" id="nota_2"><br>
+                </div>
+ 
+                <div class="nota3">
+                    <label for="">Nota 3:</label>
+                    <input required type="number" name="nota_3" id="nota_3">
+                </div>
+            </div>    
+                
+            <div class="lançar">
+                <button type="submit" class="lançar_notas">Lançar</button>
+            </div>
+        </form>
+</body>
+</html>
